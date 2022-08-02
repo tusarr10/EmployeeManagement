@@ -7,6 +7,7 @@
 Public Class clsEmpDetails
     Private mofficeid As String
     Private memployeeId As String
+    Private mDateOfPosting As String
     Private mDateofJoin As String
     Private mDateofRet As String
     Private mEmployeeStatus As String
@@ -93,6 +94,15 @@ Public Class clsEmpDetails
         End Get
         Set(value As String)
             mIsPLI = value
+        End Set
+    End Property
+
+    Public Property MDateOfPosting1 As String
+        Get
+            Return mDateOfPosting
+        End Get
+        Set(value As String)
+            mDateOfPosting = value
         End Set
     End Property
 End Class

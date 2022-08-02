@@ -4,6 +4,7 @@
     Private mRO As String
     Private mDO As String
     Private mSDO As String
+    Private mHO As String
     Private mSO As String
     Private mBo As String
     Private mOfficetype As String
@@ -118,6 +119,15 @@
         End Get
         Set(value As String)
             mRemarks = value
+        End Set
+    End Property
+
+    Public Property MHO1 As String
+        Get
+            Return mHO
+        End Get
+        Set(value As String)
+            mHO = value
         End Set
     End Property
 End Class
